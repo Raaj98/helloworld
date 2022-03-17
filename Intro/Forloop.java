@@ -6,7 +6,7 @@ class Forloop{
         int a = scan.nextInt();
         System.out.println("enter value b");
         int b = scan.nextInt();
-        for (int i=a;i<=b;++i){
+        for (int i=a;i<=b;i++){
             System.out.println(i);
         }
     }
