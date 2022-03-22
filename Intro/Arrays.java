@@ -6,10 +6,11 @@ class Arrays{
         System.out.println("enter the car a");
         String a = scan.nextLine();
         for(int i = 0;i<cars.length;i++) {
+            System.out.println(cars[i]);
             if (cars[i].equals(a)) {
                 continue;
             }
-            System.out.println(cars[i]);
+//                System.out.println(cars[i]);
         }
     }
 }
