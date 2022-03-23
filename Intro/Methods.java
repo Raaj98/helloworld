@@ -3,6 +3,11 @@ class Methods {
     public static void main(String[] args) {
 
         Scanner scan = new Scanner(System.in);
+        System.out.println("enter car a");
+        String a = scan.nextLine();
+        String[] cars = {"volvo", "bmw", "audi", "volvo", "bmw"};
+        int x = list(cars,a);
+        System.out.println(x);
 
     }
 
@@ -15,5 +20,5 @@ class Methods {
         }
         return count;
     }
-
+}
 
