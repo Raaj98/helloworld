@@ -10,7 +10,6 @@ class Arrays{
             if (cars[i].equals(a)) {
                 continue;
             }
-//                System.out.println(cars[i]);
         }
     }
 }

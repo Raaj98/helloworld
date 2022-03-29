@@ -11,7 +11,7 @@ class Methods {
 
     }
 
-    static int list(String[] cars, String n) {
+    static int list(String[] cars, String a) {
         int count = 0;
         for (int i = 0; i < cars.length; i++) {
             if (cars[i].equals(n)) {
